@@ -1,5 +1,5 @@
 # Package and Environment files
-node_modules
+/node_modules
 .env
 .env.local
 dist
