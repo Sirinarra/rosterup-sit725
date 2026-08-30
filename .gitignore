@@ -3,3 +3,6 @@
 .env
 .env.local
 dist
+.DS_Store
+.vscode/
+npm-debug.log*
