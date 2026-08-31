@@ -1,23 +1,28 @@
 # RosterUp
 
-RosterUp is the SIT725 group project for coordinating shift cover between
-workplace managers and employees. It replaces informal group-chat swapping
-with a clear workflow for workplace membership, open shifts, claims, manager
-approval, and shift history.
+RosterUp is our SIT725 group project for making shift cover less chaotic.
+Instead of sending "Can anyone take my shift?" into a group chat and hoping it
+does not disappear under 47 other messages, employees can post and claim open
+shifts in one place. Managers can approve changes, and everyone can see what
+actually happened without becoming a chat detective.
 
 ## Project status
 
-RosterUp is currently in Sprint 1 development and is not production-ready.
+RosterUp is currently in Sprint 1, which means the plan is real, the team is
+building, and a few buttons may still be imaginary. It is not ready for a real
+workplace just yet.
 
-- `main` is the protected, reviewed project baseline.
-- `sprint1-integration` is the shared Sprint 1 integration branch.
-- Feature branches are reviewed through pull requests before integration.
-- The application scaffold is incomplete and may not run until the remaining
-  Sprint 1 routes and screens are implemented.
+`main` is our protected and reviewed version of the project.
+`sprint1-integration` is where the completed Sprint 1 pieces come together for
+testing. Everyone works on a separate feature branch and opens a pull request
+before their work joins the rest of the application. The scaffold is still
+under construction, so the full app may not run until the remaining routes and
+screens are connected.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) before starting development and
-[docs/MERGE_GUIDE.md](docs/MERGE_GUIDE.md) before opening or merging a pull
-request.
+Before starting development, have a quick look at
+[CONTRIBUTING.md](CONTRIBUTING.md). Before opening or merging a pull request,
+check [docs/MERGE_GUIDE.md](docs/MERGE_GUIDE.md). Future you and the rest of the
+team will appreciate it.
 
 ## Core workflow
 
