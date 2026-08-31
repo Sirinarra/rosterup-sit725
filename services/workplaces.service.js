@@ -1,0 +1,1 @@
+const workplaces = require('../models/Workplace');
