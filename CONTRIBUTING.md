@@ -17,7 +17,7 @@ agreed by the group and reflected in the SRS or Sprint plan.
 
 ## Branches
 
-Create feature branches from `codex/sprint1-integration`, not from another
+Create feature branches from `sprint1-integration`, not from another
 member's feature branch.
 
 Use a clear branch name:
@@ -61,7 +61,7 @@ your module independently and explain the dependency in the pull request.
 
 ## Pull requests
 
-Feature pull requests must normally target `codex/sprint1-integration`.
+Feature pull requests must normally target `sprint1-integration`.
 
 Every pull request must include:
 
