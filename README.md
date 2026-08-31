@@ -1,10 +1,10 @@
 # RosterUp
 
-RosterUp is our SIT725 group project for making shift cover less chaotic.
-Instead of sending "Can anyone take my shift?" into a group chat and hoping it
-does not disappear under 47 other messages, employees can post and claim open
-shifts in one place. Managers can approve changes, and everyone can see what
-actually happened without becoming a chat detective.
+RosterUp is our SIT725 group project for making shift swaps easier. Instead of
+asking “Can anyone take my shift?” in the group chat and watching the message
+get buried, employees can post an open shift and someone else can claim it.
+Managers can approve the change, and everyone knows who is working without
+scrolling through a hundred messages.
 
 ## Project status
 
