@@ -10,7 +10,7 @@ approval, and shift history.
 RosterUp is currently in Sprint 1 development and is not production-ready.
 
 - `main` is the protected, reviewed project baseline.
-- `codex/sprint1-integration` is the shared Sprint 1 integration branch.
+- `sprint1-integration` is the shared Sprint 1 integration branch.
 - Feature branches are reviewed through pull requests before integration.
 - The application scaffold is incomplete and may not run until the remaining
   Sprint 1 routes and screens are implemented.
@@ -114,7 +114,7 @@ Clone the repository and switch to the active Sprint 1 integration branch:
 ```bash
 git clone https://github.com/sahancz/rosterup-sit725.git
 cd rosterup-sit725
-git switch codex/sprint1-integration
+git switch sprint1-integration
 npm install
 ```
 
@@ -139,10 +139,10 @@ passwords, connection strings, or other secrets.
 
 1. Claim a Trello card before beginning work.
 2. Confirm that the card maps to the approved SRS.
-3. Create a branch from `codex/sprint1-integration`.
+3. Create a branch from `sprint1-integration`.
 4. Make focused commits under your own GitHub account.
 5. Test your change locally.
-6. Open a pull request into `codex/sprint1-integration`.
+6. Open a pull request into `sprint1-integration`.
 7. Address review comments and conflicts.
 8. Merge only after approval.
 9. Merge the integration branch into `main` only when the complete Sprint 1

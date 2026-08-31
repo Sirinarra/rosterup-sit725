@@ -8,8 +8,8 @@ the protected `main` branch.
 | Branch | Purpose | Normal merge target |
 |---|---|---|
 | `main` | Protected, reviewed project baseline | None |
-| `codex/sprint1-integration` | Combines reviewed Sprint 1 features for full testing | `main` |
-| Feature branch | Contains one member's focused Trello work | `codex/sprint1-integration` |
+| `sprint1-integration` | Combines reviewed Sprint 1 features for full testing | `main` |
+| Feature branch | Contains one member's focused Trello work | `sprint1-integration` |
 
 `main` must not be used as a shared scratch branch. The integration branch may
 temporarily contain incomplete Sprint work, but every addition must still be
@@ -20,7 +20,7 @@ reviewed through a pull request.
 ### 1. Update the branch base
 
 ```bash
-git switch codex/sprint1-integration
+git switch sprint1-integration
 git pull --ff-only
 git switch -c feature/<trello-card>-<short-description>
 ```
@@ -41,7 +41,7 @@ git push -u origin feature/<trello-card>-<short-description>
 
 Open the pull request with:
 
-- Base: `codex/sprint1-integration`
+- Base: `sprint1-integration`
 - Compare: the contributor's feature branch
 
 Complete every section of the pull-request template.
