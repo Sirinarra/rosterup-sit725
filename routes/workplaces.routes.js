@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-// const {  } = require('../controllers/workplaces.controller');
+const { createWorkplace } = require('../controllers/workplaces.controller');
 
 function notImplemented(req, res) {
     return res.status(501).json({
@@ -9,7 +9,7 @@ function notImplemented(req, res) {
 }
 
 // Create workplace 
-router.post('/', notImplemented);
+router.post('/', createWorkplace);
 
 // Get all workplaces 
 router.get('/', notImplemented);
