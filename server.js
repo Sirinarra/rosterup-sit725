@@ -20,6 +20,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: false }));
+// SIT725 8.2HD — student identification endpoint
+app.get('/api/student', (req, res) => {
+    res.json({
+        name: "Tejaswini Narra",
+        studentId: "s226464291"
+    });
+});
 
 // Use Routes
 app.use('/api/auth', authRoutes);
